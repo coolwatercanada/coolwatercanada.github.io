@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../wortor.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+
+.button{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.us{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.us h3{
+    color: #fff;
+    font-size: 23px;
+}
+
+.buttonn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pfp{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.pfp2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pfp3{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.teamsub{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.teamsub h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.nolan{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.nolan h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.voxov{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.voxov h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.amir{
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.amir h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.frige img{
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+.frige{
+    position: absolute;
+    top: 73%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonnn{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+
+.buttonnn{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+.wortorbutton{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.worter img{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+
+.worter{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.buyborder{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.buyborder img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.titlebuy{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.titlebuy h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+
+.worterprice{
+    position: absolute;
+    top: 88%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.priceworter{
+    border: 2px solid #fff;
+    padding: 10px 72px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.frigebuy{
+    position: absolute;
+    top: 88%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+.buyfrige{
+    border: 2px solid #fff;
+    padding: 10px 92px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.frigepng{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+.frigepng img{
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+.pricesub{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pricesub h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.learn{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.learn h3{
+    color: #fff;
+    font-size: 20px;
+}
